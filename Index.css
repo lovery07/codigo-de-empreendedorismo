@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Clicável</title>
+</head>
+<body>
+    <div class="container">
+        <img src="icon.png" alt="Ícone" class="icon" onclick="openWebsite()">
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeWebsite()">&times;</span>
+            <h1>Bem-vindo ao Meu Site!</h1>
+            <p>Este é um site simples que abre ao clicar no ícone.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
